@@ -15,9 +15,9 @@
 .container {
    
     max-width:  1200px;
-    background: #f7f3f3;
+    background-color:aquamarine ;
     padding: 10px;
-    flex-direction: row;
+    justify-content: space-between;
     gap: 10px;
     display: flex;
     margin: 0 auto;
@@ -35,7 +35,7 @@
 
 /*utility classes*/
 .bg-orange{
- background-color: #ec4b1a;
+ background-color: orange;
 }
 .border-black{
     border: 1px  solid black;
@@ -47,7 +47,7 @@
 .p2-20{
     padding: 20px 0;
 }
-.bg-blue{
+.bg-blue {
     background-color: blue;
 
 }
@@ -59,9 +59,16 @@
     justify-content: center;
 
 }
-/*content classes*/
-.header ul li{
-    margin:
 
+/*main*/
+.container-sm{
+    background-color: #1e3a8a;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100;
+    margin: 5px;
 
 }
+
+
