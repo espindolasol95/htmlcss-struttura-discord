@@ -10,3 +10,4 @@ Cercate di creare delle classi il più riutilizzabili possibile.
 Numero minimo di push: 10
 
 Buon lavoro!
+Esercizio di ogg
