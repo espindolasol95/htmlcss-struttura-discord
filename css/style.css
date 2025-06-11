@@ -12,7 +12,7 @@
 }
 
 /*layout classes*/
-.container {
+.container-1{
    
     max-width:  1200px;
     background-color:aquamarine ;
@@ -47,28 +47,37 @@
 .p2-20{
     padding: 20px 0;
 }
-.bg-blue {
+.bg-blue- {
     background-color: blue;
 
 }
 .bg-pink{
     background-color: pink;
 }
-.header ul{
+.header-ul{
     display: flex;
     justify-content: center;
 
 }
 
 /*main*/
-.container-sm{
-    background-color: #1e3a8a;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    height: 100;
-    margin: 5px;
+
+.container-2{
+    background-color: blue;
+}
+.bg-blue-pink .blue{
+    background-color: blue;
+    width: 50%;
+   
 
 }
-
+.bg-blue-pink .pink{
+    background-color: pink ;
+    whidth: 50%;
+}
+.box{
+   
+    height: 100px;
+    margin: 5px;
+}
 
