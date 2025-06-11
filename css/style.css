@@ -62,18 +62,16 @@
 
 /*main*/
 
-.container-2{
+.bg-blue{
     background-color: blue;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
 }
-.bg-blue-pink .blue{
-    background-color: blue;
-    width: 50%;
-   
-
-}
-.bg-blue-pink .pink{
-    background-color: pink ;
-    whidth: 50%;
+.pink-inside{
+     whidth: 50% ;
+     height: 80px;
 }
 .box{
    
