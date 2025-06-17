@@ -58,10 +58,13 @@ footer{
 .col-60{
     width: 60%;
     
+
+
+    
  }
  .col-100{
     width:100%;
-    height: 500px;
+    height: 300px;
    
    
  }
@@ -71,20 +74,9 @@ footer{
 .bg-orange{
  background-color: orange;
 }
-.border-black{
-    border: 1px  solid black;
-}
-.p-20{
-    padding: 20px ;
-}
-.py-20{
-    padding: 20px auto;
-}
-.my-20{
-    margin: 20px auto;
-}
 .bg-blue{
     background-color: blue;
+
 }
 .bg-pink{
     background-color: pink;
@@ -95,6 +87,34 @@ footer{
 .bg-green{
     background-color: green;
 }
+
+.border-black{
+    border: 1px  solid black;
+}
+.p-20{
+    padding: 20px ;
+}
+.py-20{
+    padding: 20px;
+    padding-bottom:20px ;
+}
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.my-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text.rigth{
+    text-align:rigth;
+}
+.text.center{
+    text-align: center;
+}
+
+
+
 header-ul{
    display: flex;
    justify-content: center;
@@ -103,14 +123,11 @@ header-ul{
 ul{
     list-style-type:none;
     display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-header ul li{
-    margin: 0 15px;
 
-}
-.text.rigth{
-    text-align:rigth;
-}
+
 
 /*main*/
 
